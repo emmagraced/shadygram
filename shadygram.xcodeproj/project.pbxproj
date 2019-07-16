@@ -12,6 +12,7 @@
 		92C54C9D22DD375E0045E7E8 /* shadygram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92C54C9B22DD375E0045E7E8 /* shadygram.xcdatamodeld */; };
 		92C54C9F22DD37600045E7E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C54C9E22DD37600045E7E8 /* Assets.xcassets */; };
 		92C54CA222DD37600045E7E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C54CA022DD37600045E7E8 /* LaunchScreen.storyboard */; };
+		92C54CAA22DD42FF0045E7E8 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C54CA922DD42FF0045E7E8 /* AddPhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		92C54C9E22DD37600045E7E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92C54CA122DD37600045E7E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92C54CA322DD37600045E7E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C54CA922DD42FF0045E7E8 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				92C54C9422DD375E0045E7E8 /* AppDelegate.swift */,
 				92C54C9822DD375E0045E7E8 /* Main.storyboard */,
+				92C54CA922DD42FF0045E7E8 /* AddPhotoViewController.swift */,
 				92C54C9E22DD37600045E7E8 /* Assets.xcassets */,
 				92C54CA022DD37600045E7E8 /* LaunchScreen.storyboard */,
 				92C54CA322DD37600045E7E8 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92C54C9522DD375E0045E7E8 /* AppDelegate.swift in Sources */,
+				92C54CAA22DD42FF0045E7E8 /* AddPhotoViewController.swift in Sources */,
 				92C54C9D22DD375E0045E7E8 /* shadygram.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QLKRHYNBA7;
 				INFOPLIST_FILE = shadygram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QLKRHYNBA7;
 				INFOPLIST_FILE = shadygram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
